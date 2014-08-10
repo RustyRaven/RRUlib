@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7772B86116ACD851002F3DC0 /* RRUlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7772B86016ACD851002F3DC0 /* RRUlib.framework */; };
+		7784E26C166332AE002C1D0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7784E26B166332AE002C1D0B /* UIKit.framework */; };
+		7784E26E166332AE002C1D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7784E26D166332AE002C1D0B /* Foundation.framework */; };
+		7784E270166332AE002C1D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7784E26F166332AE002C1D0B /* CoreGraphics.framework */; };
+		7784E276166332AE002C1D0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7784E274166332AE002C1D0B /* InfoPlist.strings */; };
+		7784E278166332AE002C1D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784E277166332AE002C1D0B /* main.m */; };
+		7784E27C166332AE002C1D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784E27B166332AE002C1D0B /* AppDelegate.m */; };
+		7784E2A71663380C002C1D0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7784E2A61663380C002C1D0B /* MainWindow.xib */; };
+		7784E2AC16633853002C1D0B /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784E2AA16633853002C1D0B /* DebugViewController.m */; };
+		7784E2AD16633853002C1D0B /* DebugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7784E2AB16633853002C1D0B /* DebugViewController.xib */; };
+		77AB9A2E16AD03770071F8E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AB9A2D16AD03770071F8E9 /* Security.framework */; };
+		77AB9A3016AD07F30071F8E9 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77AB9A2F16AD07F30071F8E9 /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7772B86016ACD851002F3DC0 /* RRUlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RRUlib.framework; path = "../unitylib/build/Debug-framework/RRUlib.framework"; sourceTree = "<group>"; };
+		7784E267166332AE002C1D0B /* RRUlibCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRUlibCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784E26B166332AE002C1D0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7784E26D166332AE002C1D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7784E26F166332AE002C1D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7784E273166332AE002C1D0B /* RRUlibCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRUlibCheck-Info.plist"; sourceTree = "<group>"; };
+		7784E275166332AE002C1D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7784E277166332AE002C1D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7784E279166332AE002C1D0B /* RRUlibCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRUlibCheck-Prefix.pch"; sourceTree = "<group>"; };
+		7784E27A166332AE002C1D0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7784E27B166332AE002C1D0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7784E2A61663380C002C1D0B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7784E2A916633853002C1D0B /* DebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		7784E2AA16633853002C1D0B /* DebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		7784E2AB16633853002C1D0B /* DebugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
+		77AB9A2D16AD03770071F8E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		77AB9A2F16AD07F30071F8E9 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7784E264166332AE002C1D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AB9A2E16AD03770071F8E9 /* Security.framework in Frameworks */,
+				7784E26C166332AE002C1D0B /* UIKit.framework in Frameworks */,
+				7784E26E166332AE002C1D0B /* Foundation.framework in Frameworks */,
+				7784E270166332AE002C1D0B /* CoreGraphics.framework in Frameworks */,
+				7772B86116ACD851002F3DC0 /* RRUlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7784E25C166332AE002C1D0B = {
+			isa = PBXGroup;
+			children = (
+				7784E271166332AE002C1D0B /* RRUlibCheck */,
+				7784E26A166332AE002C1D0B /* Frameworks */,
+				7784E268166332AE002C1D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7784E268166332AE002C1D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7784E267166332AE002C1D0B /* RRUlibCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7784E26A166332AE002C1D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7772B86016ACD851002F3DC0 /* RRUlib.framework */,
+				77AB9A2D16AD03770071F8E9 /* Security.framework */,
+				7784E26B166332AE002C1D0B /* UIKit.framework */,
+				7784E26D166332AE002C1D0B /* Foundation.framework */,
+				7784E26F166332AE002C1D0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7784E271166332AE002C1D0B /* RRUlibCheck */ = {
+			isa = PBXGroup;
+			children = (
+				7784E27A166332AE002C1D0B /* AppDelegate.h */,
+				7784E27B166332AE002C1D0B /* AppDelegate.m */,
+				7784E2A61663380C002C1D0B /* MainWindow.xib */,
+				7784E2A916633853002C1D0B /* DebugViewController.h */,
+				7784E2AA16633853002C1D0B /* DebugViewController.m */,
+				7784E2AB16633853002C1D0B /* DebugViewController.xib */,
+				7784E272166332AE002C1D0B /* Supporting Files */,
+			);
+			path = RRUlibCheck;
+			sourceTree = "<group>";
+		};
+		7784E272166332AE002C1D0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77AB9A2F16AD07F30071F8E9 /* Entitlements.plist */,
+				7784E273166332AE002C1D0B /* RRUlibCheck-Info.plist */,
+				7784E274166332AE002C1D0B /* InfoPlist.strings */,
+				7784E277166332AE002C1D0B /* main.m */,
+				7784E279166332AE002C1D0B /* RRUlibCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7784E266166332AE002C1D0B /* RRUlibCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7784E27F166332AE002C1D0B /* Build configuration list for PBXNativeTarget "RRUlibCheck" */;
+			buildPhases = (
+				7784E263166332AE002C1D0B /* Sources */,
+				7784E264166332AE002C1D0B /* Frameworks */,
+				7784E265166332AE002C1D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRUlibCheck;
+			productName = NYlibCheck;
+			productReference = 7784E267166332AE002C1D0B /* RRUlibCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7784E25E166332AE002C1D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7784E261166332AE002C1D0B /* Build configuration list for PBXProject "RRUlibCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7784E25C166332AE002C1D0B;
+			productRefGroup = 7784E268166332AE002C1D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7784E266166332AE002C1D0B /* RRUlibCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7784E265166332AE002C1D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784E276166332AE002C1D0B /* InfoPlist.strings in Resources */,
+				7784E2A71663380C002C1D0B /* MainWindow.xib in Resources */,
+				7784E2AD16633853002C1D0B /* DebugViewController.xib in Resources */,
+				77AB9A3016AD07F30071F8E9 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7784E263166332AE002C1D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784E278166332AE002C1D0B /* main.m in Sources */,
+				7784E27C166332AE002C1D0B /* AppDelegate.m in Sources */,
+				7784E2AC16633853002C1D0B /* DebugViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7784E274166332AE002C1D0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7784E275166332AE002C1D0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7784E27D166332AE002C1D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AIMING INC.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: AIMING INC.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "2C1B9666-39F3-4315-A285-450B44089532";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C1B9666-39F3-4315-A285-450B44089532";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7784E27E166332AE002C1D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AIMING INC.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: AIMING INC.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "2C1B9666-39F3-4315-A285-450B44089532";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C1B9666-39F3-4315-A285-450B44089532";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7784E280166332AE002C1D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					armv7,
+					armv6,
+				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = RRUlibCheck/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AIMING INC.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: AIMING INC.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../unitylib/build/Debug-framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRUlibCheck/RRUlibCheck-Prefix.pch";
+				INFOPLIST_FILE = "RRUlibCheck/RRUlibCheck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = RRUlibCheck;
+				PROVISIONING_PROFILE = "2C1B9666-39F3-4315-A285-450B44089532";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C1B9666-39F3-4315-A285-450B44089532";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7784E281166332AE002C1D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_PERMISSIONS_FILES = (
+					armv7,
+					armv6,
+				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = RRUlibCheck/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AIMING INC.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: AIMING INC.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../unitylib/build/Debug-framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRUlibCheck/RRUlibCheck-Prefix.pch";
+				INFOPLIST_FILE = "RRUlibCheck/RRUlibCheck-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = RRUlibCheck;
+				PROVISIONING_PROFILE = "2C1B9666-39F3-4315-A285-450B44089532";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2C1B9666-39F3-4315-A285-450B44089532";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7784E261166332AE002C1D0B /* Build configuration list for PBXProject "RRUlibCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784E27D166332AE002C1D0B /* Debug */,
+				7784E27E166332AE002C1D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7784E27F166332AE002C1D0B /* Build configuration list for PBXNativeTarget "RRUlibCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784E280166332AE002C1D0B /* Debug */,
+				7784E281166332AE002C1D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7784E25E166332AE002C1D0B /* Project object */;
+}

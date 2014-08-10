@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7784E29F16633685002C1D0B /* RRUlib-framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7784E2A016633685002C1D0B /* Build configuration list for PBXAggregateTarget "RRUlib-framework" */;
+			buildPhases = (
+				7784E2A51663368F002C1D0B /* ShellScript */,
+			);
+			dependencies = (
+				7784E2A41663368A002C1D0B /* PBXTargetDependency */,
+			);
+			name = "RRUlib-framework";
+			productName = "NYlib-framework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7777864F1665A39000BDDD32 /* RRUWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7777864D1665A39000BDDD32 /* RRUWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777786501665A39000BDDD32 /* RRUWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7777864E1665A39000BDDD32 /* RRUWebView.m */; };
+		777786531665A5F700BDDD32 /* RRUViewAnimationKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 777786511665A5F700BDDD32 /* RRUViewAnimationKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777786541665A5F700BDDD32 /* RRUViewAnimationKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 777786521665A5F700BDDD32 /* RRUViewAnimationKey.m */; };
+		7784E25B16633215002C1D0B /* RRUlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 779CA4871663270D00BE8EB9 /* RRUlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7785E5B6166601F800572BF1 /* RRUlibForUnity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7785E5B4166601F800572BF1 /* RRUlibForUnity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7785E5B7166601F800572BF1 /* RRUlibForUnity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785E5B5166601F800572BF1 /* RRUlibForUnity.m */; };
+		779CA4831663270D00BE8EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779CA4821663270D00BE8EB9 /* Foundation.framework */; };
+		779CA4891663270D00BE8EB9 /* RRUlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 779CA4881663270D00BE8EB9 /* RRUlib.m */; };
+		77AB9A2516ACE14C0071F8E9 /* KeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AB9A2316ACE14C0071F8E9 /* KeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77AB9A2616ACE14C0071F8E9 /* KeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AB9A2416ACE14C0071F8E9 /* KeychainUtils.m */; };
+		77AB9A2916ACE19A0071F8E9 /* RRUKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AB9A2716ACE19A0071F8E9 /* RRUKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77AB9A2A16ACE19A0071F8E9 /* RRUKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AB9A2816ACE19A0071F8E9 /* RRUKeychainUtils.m */; };
+		77B19DDE17E95A5400FD780B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B19DDC17E95A3900FD780B /* Security.framework */; };
+		77E8F2A416AD14BD0043ABF1 /* SystemBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E8F2A216AD14BD0043ABF1 /* SystemBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E8F2A516AD14BD0043ABF1 /* SystemBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F2A316AD14BD0043ABF1 /* SystemBinding.m */; };
+		77FD8FD216AFAE3D008C9FB1 /* RRUlibCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FD8FD016AFAE3D008C9FB1 /* RRUlibCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FD8FD316AFAE3D008C9FB1 /* RRUlibCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD8FD116AFAE3D008C9FB1 /* RRUlibCallback.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7784E2A31663368A002C1D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779CA4761663270D00BE8EB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779CA47E1663270D00BE8EB9;
+			remoteInfo = NYlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7777864D1665A39000BDDD32 /* RRUWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUWebView.h; sourceTree = "<group>"; };
+		7777864E1665A39000BDDD32 /* RRUWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUWebView.m; sourceTree = "<group>"; };
+		777786511665A5F700BDDD32 /* RRUViewAnimationKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUViewAnimationKey.h; sourceTree = "<group>"; };
+		777786521665A5F700BDDD32 /* RRUViewAnimationKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUViewAnimationKey.m; sourceTree = "<group>"; };
+		7785E5B4166601F800572BF1 /* RRUlibForUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUlibForUnity.h; sourceTree = "<group>"; };
+		7785E5B5166601F800572BF1 /* RRUlibForUnity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUlibForUnity.m; sourceTree = "<group>"; };
+		779CA47F1663270D00BE8EB9 /* libRRUlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRRUlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		779CA4821663270D00BE8EB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		779CA4861663270D00BE8EB9 /* RRUlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRUlib-Prefix.pch"; sourceTree = "<group>"; };
+		779CA4871663270D00BE8EB9 /* RRUlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRUlib.h; sourceTree = "<group>"; };
+		779CA4881663270D00BE8EB9 /* RRUlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRUlib.m; sourceTree = "<group>"; };
+		77AB9A2316ACE14C0071F8E9 /* KeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainUtils.h; sourceTree = "<group>"; };
+		77AB9A2416ACE14C0071F8E9 /* KeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainUtils.m; sourceTree = "<group>"; };
+		77AB9A2716ACE19A0071F8E9 /* RRUKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUKeychainUtils.h; sourceTree = "<group>"; };
+		77AB9A2816ACE19A0071F8E9 /* RRUKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUKeychainUtils.m; sourceTree = "<group>"; };
+		77B19DDC17E95A3900FD780B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		77E8F2A216AD14BD0043ABF1 /* SystemBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemBinding.h; sourceTree = "<group>"; };
+		77E8F2A316AD14BD0043ABF1 /* SystemBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemBinding.m; sourceTree = "<group>"; };
+		77FD8FD016AFAE3D008C9FB1 /* RRUlibCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUlibCallback.h; sourceTree = "<group>"; };
+		77FD8FD116AFAE3D008C9FB1 /* RRUlibCallback.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = RRUlibCallback.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779CA47C1663270D00BE8EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779CA4831663270D00BE8EB9 /* Foundation.framework in Frameworks */,
+				77B19DDE17E95A5400FD780B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7777864C1665A39000BDDD32 /* RRUWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7777864D1665A39000BDDD32 /* RRUWebView.h */,
+				7777864E1665A39000BDDD32 /* RRUWebView.m */,
+				777786511665A5F700BDDD32 /* RRUViewAnimationKey.h */,
+				777786521665A5F700BDDD32 /* RRUViewAnimationKey.m */,
+			);
+			path = RRUWebView;
+			sourceTree = "<group>";
+		};
+		779CA4741663270D00BE8EB9 = {
+			isa = PBXGroup;
+			children = (
+				779CA4841663270D00BE8EB9 /* RRUlib */,
+				779CA4811663270D00BE8EB9 /* Frameworks */,
+				779CA4801663270D00BE8EB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779CA4801663270D00BE8EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779CA47F1663270D00BE8EB9 /* libRRUlib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779CA4811663270D00BE8EB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77B19DDC17E95A3900FD780B /* Security.framework */,
+				779CA4821663270D00BE8EB9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779CA4841663270D00BE8EB9 /* RRUlib */ = {
+			isa = PBXGroup;
+			children = (
+				779CA4871663270D00BE8EB9 /* RRUlib.h */,
+				779CA4881663270D00BE8EB9 /* RRUlib.m */,
+				77FD8FD016AFAE3D008C9FB1 /* RRUlibCallback.h */,
+				77FD8FD116AFAE3D008C9FB1 /* RRUlibCallback.m */,
+				7785E5B4166601F800572BF1 /* RRUlibForUnity.h */,
+				7785E5B5166601F800572BF1 /* RRUlibForUnity.m */,
+				77AB9A2216ACE14C0071F8E9 /* RRUKeychain */,
+				7777864C1665A39000BDDD32 /* RRUWebView */,
+				77E8F2A116AD14BD0043ABF1 /* Utils */,
+				779CA4851663270D00BE8EB9 /* Supporting Files */,
+			);
+			path = RRUlib;
+			sourceTree = "<group>";
+		};
+		779CA4851663270D00BE8EB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				779CA4861663270D00BE8EB9 /* RRUlib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77AB9A2216ACE14C0071F8E9 /* RRUKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				77AB9A2316ACE14C0071F8E9 /* KeychainUtils.h */,
+				77AB9A2416ACE14C0071F8E9 /* KeychainUtils.m */,
+				77AB9A2716ACE19A0071F8E9 /* RRUKeychainUtils.h */,
+				77AB9A2816ACE19A0071F8E9 /* RRUKeychainUtils.m */,
+			);
+			path = RRUKeychain;
+			sourceTree = "<group>";
+		};
+		77E8F2A116AD14BD0043ABF1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				77E8F2A216AD14BD0043ABF1 /* SystemBinding.h */,
+				77E8F2A316AD14BD0043ABF1 /* SystemBinding.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		779CA47D1663270D00BE8EB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784E25B16633215002C1D0B /* RRUlib.h in Headers */,
+				77FD8FD216AFAE3D008C9FB1 /* RRUlibCallback.h in Headers */,
+				7785E5B6166601F800572BF1 /* RRUlibForUnity.h in Headers */,
+				77AB9A2516ACE14C0071F8E9 /* KeychainUtils.h in Headers */,
+				77AB9A2916ACE19A0071F8E9 /* RRUKeychainUtils.h in Headers */,
+				7777864F1665A39000BDDD32 /* RRUWebView.h in Headers */,
+				777786531665A5F700BDDD32 /* RRUViewAnimationKey.h in Headers */,
+				77E8F2A416AD14BD0043ABF1 /* SystemBinding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		779CA47E1663270D00BE8EB9 /* RRUlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779CA48C1663270D00BE8EB9 /* Build configuration list for PBXNativeTarget "RRUlib" */;
+			buildPhases = (
+				779CA47B1663270D00BE8EB9 /* Sources */,
+				779CA47C1663270D00BE8EB9 /* Frameworks */,
+				779CA47D1663270D00BE8EB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRUlib;
+			productName = NYlib;
+			productReference = 779CA47F1663270D00BE8EB9 /* libRRUlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779CA4761663270D00BE8EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 779CA4791663270D00BE8EB9 /* Build configuration list for PBXProject "RRUlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 779CA4741663270D00BE8EB9;
+			productRefGroup = 779CA4801663270D00BE8EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779CA47E1663270D00BE8EB9 /* RRUlib */,
+				7784E29F16633685002C1D0B /* RRUlib-framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7784E2A51663368F002C1D0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Environment Variables\nFRAMEWORK_NAME=${PROJECT_NAME}\nFRAMEWORK_VERSION=A\nFRAMEWORK_VERSION_NUMBER=1.0.0\nFRAMEWORK_BUILD_PATH=\"${SRCROOT}/build/${CONFIGURATION}-framework\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\"\nFRAMEWORK_PACKAGE_NAME=\"${FRAMEWORK_NAME}.${FRAMEWORK_VERSION_NUMBER}.zip\"\n\n# Clean directories\nrm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\n# Build simulator and device binaries.\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator6.0 -target \"${PROJECT_NAME}\" -configuration \"Simulator\" clean build\nxcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos6.0 -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} clean build\n#xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphonesimulator${IPHONEOS_DEPLOYMENT_TARGET} -target \"${PROJECT_NAME}\" -configuration \"Simulator\" clean build\n#xcodebuild -project ${PROJECT_NAME}.xcodeproj -sdk iphoneos${IPHONEOS_DEPLOYMENT_TARGET} -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} clean build\n\n# create framework directories.\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\n\n# create symlinks\nln -s ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s ${FRAMEWORK_DIR}/Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s ${FRAMEWORK_DIR}/Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s ${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# create the universal library\nlipo ${SRCROOT}/build/${CONFIGURATION}-iphoneos/lib${FRAMEWORK_NAME}.a ${SRCROOT}/build/Simulator-iphonesimulator/lib${FRAMEWORK_NAME}.a -create -output \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n# copy files\ncp ${SRCROOT}/build/${CONFIGURATION}-iphoneos/Headers/*.h ${FRAMEWORK_DIR}/Headers/\n                                                      # */\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779CA47B1663270D00BE8EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779CA4891663270D00BE8EB9 /* RRUlib.m in Sources */,
+				777786501665A39000BDDD32 /* RRUWebView.m in Sources */,
+				777786541665A5F700BDDD32 /* RRUViewAnimationKey.m in Sources */,
+				7785E5B7166601F800572BF1 /* RRUlibForUnity.m in Sources */,
+				77AB9A2616ACE14C0071F8E9 /* KeychainUtils.m in Sources */,
+				77AB9A2A16ACE19A0071F8E9 /* RRUKeychainUtils.m in Sources */,
+				77E8F2A516AD14BD0043ABF1 /* SystemBinding.m in Sources */,
+				77FD8FD316AFAE3D008C9FB1 /* RRUlibCallback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7784E2A41663368A002C1D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779CA47E1663270D00BE8EB9 /* RRUlib */;
+			targetProxy = 7784E2A31663368A002C1D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7784E2A116633685002C1D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "RRUlib-framework";
+			};
+			name = Debug;
+		};
+		7784E2A216633685002C1D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "RRUlib-framework";
+			};
+			name = Release;
+		};
+		779CA48A1663270D00BE8EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		779CA48B1663270D00BE8EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779CA48D1663270D00BE8EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RRUlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRUlib/RRUlib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = RRUlib;
+				PUBLIC_HEADERS_FOLDER_PATH = /Headers;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		779CA48E1663270D00BE8EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RRUlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRUlib/RRUlib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = RRUlib;
+				PUBLIC_HEADERS_FOLDER_PATH = /Headers;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		77CFCC2F166C4A9100F757ED /* Simulator */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Simulator;
+		};
+		77CFCC30166C4A9100F757ED /* Simulator */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RRUlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRUlib/RRUlib-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = RRUlib;
+				PUBLIC_HEADERS_FOLDER_PATH = /Headers;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Simulator;
+		};
+		77CFCC31166C4A9100F757ED /* Simulator */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "RRUlib-framework";
+			};
+			name = Simulator;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7784E2A016633685002C1D0B /* Build configuration list for PBXAggregateTarget "RRUlib-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784E2A116633685002C1D0B /* Debug */,
+				77CFCC31166C4A9100F757ED /* Simulator */,
+				7784E2A216633685002C1D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CA4791663270D00BE8EB9 /* Build configuration list for PBXProject "RRUlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CA48A1663270D00BE8EB9 /* Debug */,
+				77CFCC2F166C4A9100F757ED /* Simulator */,
+				779CA48B1663270D00BE8EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779CA48C1663270D00BE8EB9 /* Build configuration list for PBXNativeTarget "RRUlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779CA48D1663270D00BE8EB9 /* Debug */,
+				77CFCC30166C4A9100F757ED /* Simulator */,
+				779CA48E1663270D00BE8EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779CA4761663270D00BE8EB9 /* Project object */;
+}
